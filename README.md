@@ -66,6 +66,13 @@
     <li><a href="https://github.com/ageitgey/face_recognition">face_recognition</a></li>
     <li><a href="https://dev.mysql.com/doc/connector-python/en/">MySQL Connector/Python</a></li>
   </ul>
+  <h2>Screens-Shots</h2>
+  
+  ![image](https://github.com/YugendranS07/Attendance-System-Using-Facial-Recognition/assets/89261579/c42eef83-808c-4933-afa6-4a31a51ae9e2)
+![image](https://github.com/YugendranS07/Attendance-System-Using-Facial-Recognition/assets/89261579/7193daf2-2d97-49f4-baa4-846f763d3b35)
+![image](https://github.com/YugendranS07/Attendance-System-Using-Facial-Recognition/assets/89261579/d8b6f5a0-5bd8-42a7-a2eb-1679a48b3165)
+![image](https://github.com/YugendranS07/Attendance-System-Using-Facial-Recognition/assets/89261579/72159a78-25c1-4bec-8970-bb4fc9c4957c)
+![image](https://github.com/YugendranS07/Attendance-System-Using-Facial-Recognition/assets/89261579/71300e83-45a6-4cda-a9cd-bc76b51c547f)
 
   <h2>Contact</h2>
   <p>If you have any questions or feedback regarding this project, please feel free to contact me at <a href="mailto:syugicontactemail@gmail.com">syugicontact@gmail.com</a>.</p>  
