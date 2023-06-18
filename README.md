@@ -66,10 +66,7 @@
     <li><a href="https://github.com/ageitgey/face_recognition">face_recognition</a></li>
     <li><a href="https://dev.mysql.com/doc/connector-python/en/">MySQL Connector/Python</a></li>
   </ul>
-  
-  <h2>Contact</h2>
 
-  
   <h2>Contact</h2>
   <p>If you have any questions or feedback regarding this project, please feel free to contact me at <a href="mailto:syugicontactemail@gmail.com">syugicontact@gmail.com</a>.</p>  
 </body>
