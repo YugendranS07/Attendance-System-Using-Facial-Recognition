@@ -34,7 +34,7 @@
     <li>Set up the database:</li>
     <p>Create a MySQL database and update the database connection settings in the <code>config.sql</code> file.</p>
     <li>Run the system:</li>
-    <code>python main.py</code>
+    <code>python app.py</code>
     <li>Access the Attendance System in your web browser at <code>http://localhost:5000</code>.</li>
   </ol>
   
