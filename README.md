@@ -2,13 +2,15 @@
 <html>
 <body>
   <h1>Attendance System Using Facial Recognition</h1>
-  <p>This repository contains an Attendance System implemented using facial recognition and Flask framework. The system allows users to start attendance, add student details, view attendance reports, and log out.</p>
+  <p>This repository contains an Attendance System implemented using facial recognition and Flask framework. The system allows users to start attendance, add student details, view attendance reports, and log out. More importantly if the student faileed to appear within the stipulated time they will be marked as absent and inform to their parents.</p>
   
   <h2>Features</h2>
   <ul>
     <li>Face detection and recognition: The system utilizes facial recognition algorithms to detect and recognize faces in real-time video streams.</li>
     <li>Web interface: The system provides a user-friendly web interface implemented with Flask for easy interaction.</li>
     <li>Start Attendance: Clicking the "Start Attendance" button activates the webcam, detects faces, and records attendance based on recognized faces.</li>
+     <li>Automatic Absent Marking: If a student fails to appear within the stipulated time, they will be marked as absent in the attendance record.</li>
+     <li>Parent Notification: In case of a student's absence, the system can automatically notify their parents via email to keep them informed.</li>
     <li>Add Student: Users can input student details such as name, ID, and photo to add them to the system for attendance tracking.</li>
     <li>View Attendance: Users can view attendance reports for any date and generate customized reports based on specific parameters.</li>
     <li>Logout: The system provides a logout option to securely end the user session.</li>
@@ -66,6 +68,9 @@
   </ul>
   
   <h2>Contact</h2>
-  <p>If you have any questions or feedback regarding this project, please feel free to contact me at <a href="mailto:syugicontactemail@gmail.com">syugicontact@gmail.com</a>.</p>
+
+  
+  <h2>Contact</h2>
+  <p>If you have any questions or feedback regarding this project, please feel free to contact me at <a href="mailto:syugicontactemail@gmail.com">syugicontact@gmail.com</a>.</p>  
 </body>
 </html>
