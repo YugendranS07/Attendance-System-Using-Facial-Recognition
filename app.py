@@ -215,7 +215,7 @@ def start():
                             SUBJECT = 'Attendance Report on' + " " + today_date
                             TEXT = "ABC Group of Institution : Dear Parents, your Son/Daughter has not attended the school on today " + '.Please send a letter mentioning the reason for absence of your child.'
                             message = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
-                            server.login('syugicontact@gmail.com', 'ersy kayj tyzd jgte')
+                            server.login('syugicontact@gmail.com', 'pwd')
                             server.sendmail('syugicontact@gmail.com', row, message)
 
                         sql_update = 'UPDATE studentdetails SET remarks = "0"'
