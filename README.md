@@ -28,7 +28,7 @@
   <h2>Installation</h2>
   <ol>
     <li>Clone the repository:</li>
-    <code>git clone https://github.com/your-username/attendance-system.git</code>
+    <code>git clone https://github.com/YugendranS07/Attendance-System-Using-Facial-Recognition.git</code>
     <li>Install the required Python dependencies:</li>
     <code>pip install -r requirements.txt</code>
     <li>Set up the database:</li>
