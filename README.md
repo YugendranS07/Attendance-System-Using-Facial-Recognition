@@ -66,6 +66,6 @@
   </ul>
   
   <h2>Contact</h2>
-  <p>If you have any questions or feedback regarding this project, please feel free to contact us at <a href="mailto:syugicontactemail@gmail.com">syugicontact@gmail.com</a>.</p>
+  <p>If you have any questions or feedback regarding this project, please feel free to contact me at <a href="mailto:syugicontactemail@gmail.com">syugicontact@gmail.com</a>.</p>
 </body>
 </html>
