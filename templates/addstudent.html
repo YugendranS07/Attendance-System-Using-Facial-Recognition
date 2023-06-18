@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Attendance System Using Face Recognition </title>
+  <style>
+    body {
+          background-image: url('data:image/jpeg;base64,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');
+        background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 90vh;
+      font-family: sans-serif;
+      
+    }
+    form {
+      background-color:white;
+      border-radius: 20px;
+      padding:0 40px;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    form h2 {
+      background-color: #0b4c61;
+      color: whitesmoke;
+      border-radius: 20px 20px 0px 0px;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1px;
+    }
+    form label,
+    form input,
+    form select {
+      width: 100%;
+      margin-bottom: 5px;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 5px;
+      box-sizing: border-box;
+     
+    }
+
+    form label {
+      font-weight: bold;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="number"] {
+      background-color: white;
+    }
+    form select {
+      background-color: white;
+      height: 50px;
+    }
+    form button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #0b4c61;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    form h5 {
+      text-align: center;
+      padding: 25px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <form action='/add' method="POST" enctype="multipart/form-data">
+    <h2>Add Student</h2>
+    <label>Enter Student Name*</label>
+    <input type="text" id="studentname" name='studentname' required>
+    <label>Enter Student Id*</label>
+    <input type="text" id="studentid" name='studentid' required>
+    <label>Enter Student Gender*</label>
+    <select id="studentgender" name="studentgender" required>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Female">Prefer Not to Say</option>
+    </select>
+    <label>Enter Class*</label>
+    <input type="text"  name='classname' required>
+    <label>Enter Section*</label>
+    <input type="text"  name='secname' required>
+    <label>Enter Parent Email*</label>
+    <input type="text"  name='pename' required>
+    <label>Upload Student Image*</label>
+  <input type="file" id="studentimg" name="studentimg" accept="image/*" required>
+    <button type="submit" name="capturestudentimg">Submit</button>
+    <h5 style="padding: 20px;"><i>Total Students: {{totalreg}}</i></h5>
+</form>
+</div>
+</body>
+</html>
