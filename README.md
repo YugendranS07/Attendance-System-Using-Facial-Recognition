@@ -1,21 +1,5 @@
-# Attendance-System-Using-Facial-Recognition
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Attendance System Using Facial Recognition</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      line-height: 1.5;
-    }
-  </style>
-</head>
 <body>
   <h1>Attendance System Using Facial Recognition</h1>
   <p>This repository contains an Attendance System implemented using facial recognition and Flask framework. The system allows users to start attendance, add student details, view attendance reports, and log out.</p>
@@ -48,7 +32,7 @@
     <li>Install the required Python dependencies:</li>
     <code>pip install -r requirements.txt</code>
     <li>Set up the database:</li>
-    <p>Create a MySQL database and update the database connection settings in the <code>config.py</code> file.</p>
+    <p>Create a MySQL database and update the database connection settings in the <code>config.sql</code> file.</p>
     <li>Run the system:</li>
     <code>python main.py</code>
     <li>Access the Attendance System in your web browser at <code>http://localhost:5000</code>.</li>
@@ -56,6 +40,8 @@
   
   <h2>Usage</h2>
   <ol>
+    <li>Login:</li>
+    <p>Enter your username and password to log in and access the Attendance System.</p>
     <li>Start Attendance:</li>
     <p>On the web interface, click the "Start Attendance" button to activate the webcam and begin detecting faces for attendance tracking.</p>
     <li>Add Student:</li>
@@ -69,9 +55,6 @@
   <h2>Contributing</h2>
   <p>Contributions to the Attendance System project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.</p>
   
-  <h2>License</h2>
-  <p>This project is licensed under the <a href="LICENSE">MIT License</a>. Feel free to use and modify the code according to the terms of the license.</p>
-  
   <h2>Acknowledgments</h2>
   <p>We would like to acknowledge the following resources that helped in the development of this project:</p>
   <ul>
@@ -83,6 +66,6 @@
   </ul>
   
   <h2>Contact</h2>
-  <p>If you have any questions or feedback regarding this project, please feel free to contact us at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+  <p>If you have any questions or feedback regarding this project, please feel free to contact us at <a href="mailto:syugicontactemail@gmail.com">syugicontact@gmail.com</a>.</p>
 </body>
 </html>
